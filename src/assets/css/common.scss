@@ -1,0 +1,81 @@
+@import "../../assets/css/color.scss";
+html,body{
+  width: 100%;
+  margin:0;
+  padding:0;
+  font-size:14px;
+}
+.clearfix:before,
+.clearfix:after {
+  content: ' ';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.search-box{
+  margin-bottom:10px;
+  width: 100%;
+  .search-list{
+    width: 280px;
+    float: left;
+    margin:0 5px 10px 5px;
+    text-align: center;
+    button{
+      margin: 0 10px;
+    }
+    label{
+      display: inline-block;
+      float: left;
+      line-height: 32px;
+    }
+    .input{
+      float: left;
+      display: inline-block;
+    }
+    select{
+      width: 100%;
+    }
+  }
+  .search-btn{
+    text-align: left;
+  }
+}
+.table{
+  margin-bottom:10px;
+}
+
+h2{
+  margin-bottom:20px;
+  button{
+    float: right;
+  }
+}
+.toTop{
+  padding: 10px;
+  background:$background-slide-di-color;
+  color:$font-color;
+  text-align: center;
+  border-radius: 2px;
+}
+
+// list列表块儿
+.list-title{
+  font-size:20px;
+  margin-top:30px;
+}
+.mb-20{
+  margin-bottom:20px;
+}
+.fr{
+  float:right;
+}
+
+// 详情块样式
+.list-block{
+  margin-bottom:30px;
+  h4{
+    font-size:20px;
+    margin-bottom:20px;
+  }
+}

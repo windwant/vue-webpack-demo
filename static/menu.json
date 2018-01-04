@@ -1,0 +1,22 @@
+{
+  "code":0,
+  "msg":"ok",
+  "result":{
+    "tree": [
+      {
+        "id":8,
+        "title":"用户管理",
+        "iconType":"person",
+        "path":"",
+        "expand": true,
+        "children":[
+          {
+            "id":9,
+            "title":"用户列表",
+            "path":"userlist"
+          }
+        ]
+      }
+    ]
+  }
+}
